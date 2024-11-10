@@ -24,7 +24,6 @@ using namespace std;
 */
 
 
-
 //2
 /*
     int n;
@@ -46,9 +45,11 @@ using namespace std;
 
 
 //3
+/*
+// Выбрал тернарный оператор, так как поставленная задача допускает минимальный код, код в будущем дорабатываться не будет.
     int x;
     cin >> x;
         cout << (x / 1 == - 1? "Negative number" : "Positive number");
-	
+*/
     return 0;
 }
