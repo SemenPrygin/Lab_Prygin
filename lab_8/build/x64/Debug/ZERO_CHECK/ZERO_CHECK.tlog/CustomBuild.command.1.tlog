@@ -1,0 +1,10 @@
+^C:\GIT\LAB_PRYGIN\LAB_8\BUILD\CMAKEFILES\D19AE2C7243BFDB1303D9B42296395D1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/Lab_Prygin/lab_8 -BC:/Git/Lab_Prygin/lab_8/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Git/Lab_Prygin/lab_8/build/example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
